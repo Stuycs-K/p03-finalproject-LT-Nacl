@@ -1,19 +1,19 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/WnpErSEz)
-# PROJECT NAME HERE (CHANGE THIS!!!!!)
+# REAL tournament
  
-### GROUP NAME HERE (CHANGE THIS!!!!!)
+### 10f-TitievskyL
 
-Group Members Here (CHANGE THIS!!!!!)
+Leo Titievsky
        
 ### Project Description:
 
-Explain what is this project. (CHANGE THIS!!!!!)
+A 3d FPS tournament/arena shooter with local multiplayer and bots.
   
 ### Instructions:
 
-How does the user install/compile/run the program. (CHANGE THIS!!!!!)
-How does the user interact with this program? (CHANGE THIS!!!!!)
+Run the setup program!
+WASD to move, mouse to move view, spacebar to shoot, arrow keys and enter for menu navigation
+Kill the red guys, stay alive!
 
 ### Resources/ References:
-
-list here(CHANGE THIS!!!!!)
+n/a
