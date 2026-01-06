@@ -2,27 +2,28 @@
 
 ## Group Members:
 
-names here.(CHANGE THIS!!!!!)
+Leo Titievsky
        
 # Intentions:
-
-A statement of the problem you are solving and/or a high level description of the project. (CHANGE THIS!!!!!)
+I want to develop a tournemant/dual style simple FPS game, with support for local multiplayer and basic bots.
     
 # Intended usage:
 
-A description as to how the project will be used (describe the user interface). (CHANGE THIS!!!!!)
+The users will interact through a menu with the keyboard, which will then place them into a keyboard and mouse controlled FPS game.
   
 # Technical Details:
 
-(CHANGE THIS!!!!!)
+A server will host map events, even in local mode (the server will be run locally for singleplayer), necessitate ipc for singleplayer and sockets/networking for multiplayer.
+Intercepting signals will be critical for proper control and closing. 
+Memory allocation is key to the graphics system, underlying frame buffering. 
 
-A description of your technical design. This should include: 
-   
-How you will be using the topics covered in class in the project.
-     
-How you are breaking down the project and who is responsible for which parts.
+I'm doing all of it.
   
     
 # Intended pacing:
-
-A timeline with expected completion dates of parts of the project. (CHANGE THIS!!!!!)
+FPS game core with command line GFX done prior to starting.
+By 1/8/26, add menus and either SDL or a lightweight 'proper' frame buffer library for graphics.
+By 1/10/26, Move 'backend' non graphical/input logic to a serverside process
+By 1/12/26, revamp bots with A* and (potentially) modular behaviours
+By 1/14/26, Setup a tournemant system and menu (with fewer players then needed, additional slots are filled with bots)
+By 1/16/26, Polish, make maps, playtest
